@@ -12,7 +12,7 @@ A better looking alternative to the classic drop-down menu.
 ## Installation ##
 Simply download the module, either via the the 'Install Module' feature in the 'Setup' screen, or by downloading the latest release from the github repository.
 ## Preview ##
-![Legacy Sheet](https://i.ibb.co/yPDZm4Z/Legacy-Dark-Sheet.png)
+![Rolltype Buttons Preview](https://github.com/ZeroXNoxus/rolltype-buttons/assets/29397572/b8477cfa-3806-4209-96ed-403c4e04f243)
 
 ## Usage ##
 Once installed, enjoy!
