@@ -1,0 +1,27 @@
+{
+  "id": "rolltype-buttons",
+  "title": "Zeta's Rolltype Buttons",
+  "description": "A better looking alternative to the classic drop-down menu.",
+  "authors": [
+    {
+    "name": "ZeroXNoxus"
+    }
+    ],
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "scripts": [
+    "src/js/script.js"
+  ],
+  "styles": [
+    "src/css/style.css"
+  ],
+  "manifest": "https://github.com/ZeroXNoxus/rolltype-buttons/releases/download/latest/module.json",
+  "url": "https://github.com/ZeroXNoxus/rolltype-buttons",
+  "download": "https://github.com/ZeroXNoxus/rolltype-buttons/archive/refs/tags/latest.zip",
+  "readme": "https://github.com/ZeroXNoxus/rolltype-buttons/blob/latest/README.md",
+  "bugs": "https://github.com/ZeroXNoxus/rolltype-buttons/issues",
+  "changelog": "https://github.com/ZeroXNoxus/rolltype-buttons/releases"
+}
