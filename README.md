@@ -18,5 +18,8 @@ Simply download the module, either via the the 'Install Module' feature in the '
 Once installed, enjoy!
 
 ## Change Log ##
-### Version 0.0.1 ###
-- 
+### Version 0.0.3 ###
+- Added "Export Chat Log" and "Clear Chat Log" to button tray.
+- Improved styling.
+### Version 0.0.2 ###
+- Initial release for publication.
