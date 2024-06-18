@@ -1,14 +1,37 @@
 #rolltype-buttons{
     display: flex;
+    margin-left: 0.25rem;
 }
-#rolltype-buttons .rolltype-button{
+#rolltype-buttons .v-seperator {
+    border-left: 2px solid #939393;
+    height: 100%;
+    margin: 0 0.2rem;
+}
+#rolltype-buttons button,
+#rolltype-buttons button i{
     animation: gradient 15s ease infinite;
 }
-#rolltype-buttons .rolltype-button { filter:invert(0); }
+#rolltype-buttons .rolltype-button.active { filter:invert(0); }
 #rolltype-buttons .rolltype-button.publicroll.active{ background: linear-gradient(-45deg, #00a000, #008000, #004100); color: white; }
 #rolltype-buttons .rolltype-button.gmroll.active{ background: linear-gradient(-45deg, #ffff00, #c0c000, #818100); color: black; }
 #rolltype-buttons .rolltype-button.blindroll.active{background: linear-gradient(-45deg, #ffa500, #b37400, #6b4600); color: black; }
 #rolltype-buttons .rolltype-button.selfroll.active{background: linear-gradient(-45deg, #ff0000, #b60000, #8d0000);  color: white; }
+
+#rolltype-buttons .rolltype-button.publicroll.active i::before,
+#rolltype-buttons .rolltype-button.selfroll.active i::before {
+    background: linear-gradient(-45deg, #fff, #b9b9b9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#rolltype-buttons .rolltype-button.gmroll.active i::before,
+#rolltype-buttons .rolltype-button.blindroll.active i::before {
+    background: linear-gradient(-45deg, #000, #333333);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 @keyframes gradient {
     0% {
